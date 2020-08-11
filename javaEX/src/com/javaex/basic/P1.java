@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class P1 {
 
-	public static void main(String[] args) 
+	public static void main(String args) 
 	{
 		//logicalOper();
 		//bitOPer();
@@ -51,9 +51,9 @@ public class P1 {
 
 	public static void conditionerOper()
 	{
-		//삼항연산자
+		//�궪�빆�뿰�궛�옄
 		int a = 10;
-		String message = ((a%2 == 0) ? ("짝수") : ("홀수"));
+		String message = ((a%2 == 0) ? ("吏앹닔") : ("���닔"));
 		System.out.println(message);
 		
 		int score = 85;
@@ -63,7 +63,7 @@ public class P1 {
 
 	public static void consoleOutput()
 	{
-		//print = 개행 x / println = 개행 / printf = 형식화된 출력
+		//print = 媛쒗뻾 x / println = 媛쒗뻾 / printf = �삎�떇�솕�맂 異쒕젰
 		
 		System.out.print("Hwllow ");
 		System.out.println("Java");
@@ -78,12 +78,12 @@ public class P1 {
 	{
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("이름은?:");
+		System.out.print("�씠由꾩�?:");
 		String name = scanner.next();
-		System.out.print("나이는? ");
+		System.out.print("�굹�씠�뒗? ");
 		int age = scanner.nextInt();
 		
-		System.out.println("이름은 " + name + ",나이는" +age);
+		System.out.println("�씠由꾩� " + name + ",�굹�씠�뒗" +age);
 		scanner.close();
 	}
 	
