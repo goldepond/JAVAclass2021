@@ -23,6 +23,9 @@ public class SystemOut {
 		System.out.printf("우와 신기해.( %s)여기에 문자 들어가는거 하겠지 뭐\n", "가나다 라마바사");
 
 		System.out.printf("우와 신기해.( %s)여기에 문자 들어가는거 하겠지 뭐\n", "가나다 라마바사");
+
+		System.out.printf("우와 신기해.( %s)여기에 문자 들어가는거 하겠지 뭐\n", "가나다 라마바사");
+		System.out.printf("우와 신기해.( %s)여기에 문자 들어가는거 하겠지 뭐\n", "가나다 라마바사");
 		
 	}
 
