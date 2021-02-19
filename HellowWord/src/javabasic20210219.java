@@ -9,7 +9,6 @@ public class javabasic20210219 {
 		{
 			while (b<10)
 			{
-				
 				System.out.println(a + " x " +b + " = " + a*b);
 				b++;
 			}
