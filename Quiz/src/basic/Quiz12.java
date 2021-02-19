@@ -79,7 +79,7 @@ public class Quiz12 {
 		System.out.println(i4+ ": 1000의 약수의 개수 ");
 	//---------------------------------------------------------
 		
-*/
+
 		System.out.println("[문제 5]");
 		int a = scn.nextInt();
 		int b =0;
@@ -92,7 +92,57 @@ public class Quiz12 {
 		System.out.print("0 입력받음. 프로그램 종료. 입력한 자료  총 합 : " + b);
 		scn.close();
 	}
-	
-	
+	*/
+	//==========================================================
+	int a=0;
+	System.out.println( "ㅇㅇㅇㅇ");
+	int scan1 = scn.nextInt();
+	int arr[] = new int[scan1];
+	while(a<scan1)
+	{
+		arr[a] =a;
+		System.out.println(arr[a] + "배열 " + a );
+		a++;
+	}
 
+	//==========================================================
+	
+	int[] arrd = {1000,500,100,50,10};
+	int money = 17780;
+	int aaa =0;
+	int bbb = 0;
+	int ccc = 0;
+	int ddd = 0;
+	int eee = 0;
+	
+	while(money >10)
+	{
+		while(money > 50)
+		{
+			while(money > 100)
+			{
+				while(money > 500)
+				{
+					while(money > 1000)
+					{
+						aaa++;
+						money -= 1000;
+					}
+					bbb++;
+					money -= 500;
+				}
+				ccc++;
+				money -= 100;
+			}
+			ddd++;
+			money -= 50;
+		}
+		eee++;
+		money -= 10;
+	}
+	System.out.printf( "1000원 %d,500원 %d,100원 %d,50원 %d,10원 %d",aaa,bbb,ccc,ddd,eee);
+	
+	
+	
+	}
 }

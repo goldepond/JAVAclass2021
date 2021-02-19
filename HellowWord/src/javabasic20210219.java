@@ -16,6 +16,15 @@ public class javabasic20210219 {
 			b=0;
 			System.out.println("=============================");
 		}
+		
+		int[] arr = {1,2,3,4,5,6,7,8,9,10};
+		int aa = 0;
+		while(aa< arr.length)
+		{
+			System.out.println((arr[aa]) + " 번째 배열 " );
+			aa++;
+		}
+		
 
 
 	}
