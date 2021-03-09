@@ -6,8 +6,9 @@ public class Product {
 	
 	Product (String _name, int _price)
 	{
-		this.name = name;
-		this.price = price;
+		this.name = _name;
+		this.price = _price;
+
 	}
 
 	public String getName() {
